@@ -11,7 +11,7 @@ function checkVoting(){
         document.getElementById("result").textContent = "You are eligible to vote!";
         itemsDiv.style.backgroundColor = gcolor;
     }
-    else if(age > 50 && age < 100){
+    else if(age >= 50 && age < 100){
         document.getElementById("result").textContent = "You are eligible to vote! Also you are very old";
         itemsDiv.style.backgroundColor = gcolor;  
     }
