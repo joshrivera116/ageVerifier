@@ -1,0 +1,30 @@
+.container{
+    padding-top: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.items {
+    height: 10rem;
+    width: 25rem;
+    border-style: solid;
+    box-shadow: 0px 0px 2rem grey;
+
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem; 
+}
+.res {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
