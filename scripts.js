@@ -24,3 +24,11 @@ function checkVoting(){
         itemsDiv.style.backgroundColor = "rgb(250, 250, 250)";
     }
 }
+
+const inputElement = document.getElementById("input");
+
+inputElement.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    checkVoting();
+  }
+});
